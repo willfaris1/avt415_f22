@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@font-face {
+    font-family: '1942_report1942_report';
+    src: url("../font/1942-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'allura-regular';
+    src: url("../font/allura-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rubik-regular';
+    src: url("../font/rubik-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #5D6063;
+  background-color: bisque;
+}
+
+
+.div1 {
+  width: 300px;
+  height: 350px;
+	margin: 20px;
+	padding: 20px;
+  border: 1px solid blue;
+  background-color: white;
+  margin-bottom: 50px;
+	box-sizing: border-box;
+}
+
+.div2 {
+  width: 300px;
+  height: 250px;  
+  padding: 10px 10px 40px 10px;
+	margin: 20px;
+  border: 10px solid red;
+  background-color: white;
+  margin-bottom: 20px;
+	  box-sizing: border-box;
+}
+
+.div3 { 
+  padding: 50px;
+	max-inline-size: 66ch;
+  border: 1px solid red;
+  background-color: white;
+  margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.div3 p {
+	text-indent: 10%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.div4 { /*design the style*/
+	padding-bottom: 30px;
+	margin: 0px 50px 0px 50px
+}
+
+h1{
+	font-family: '1942_report1942_report';
+	padding-bottom: 30px;
+}
+h2 {	
+	font-family: 'Indie Flower', cursive;
+}
+
+h3 {	
+	font-family: 'Caveat', cursive;
+	font-weight:700;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+h4 {	
+	font-family: 'allura-regular';
+	font-weight:700;
+	font-size: 50px;
+	margin: 20px 0px 20px 0px;
+}
+em{
+	font-family: 'rubik-regular';
+}
